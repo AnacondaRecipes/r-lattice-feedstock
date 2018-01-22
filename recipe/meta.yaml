@@ -10,8 +10,8 @@ package:
 source:
   fn: lattice_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/lattice_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/lattice/lattice_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/lattice_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/lattice/lattice_{{ version }}.tar.gz
   sha256: 0829ab0f4dec55aac6a73bc3411af68441ddb1b5b078d680a7c2643abeaa965d
 
 
